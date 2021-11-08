@@ -1,0 +1,172 @@
+* {
+
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;    
+}
+
+body {
+background-color:rgb(59, 1, 1);
+}
+
+header{
+
+font-family: Impact;
+color:rgb(216, 205, 205);
+
+
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+
+
+}
+
+.escudo{
+
+    
+    width: 150px;
+    
+
+}
+.encabezado {
+
+color: rgb(216, 205, 205);
+border-bottom:  solid rgb(212, 204, 204);
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 25px;
+font-family: Impact;
+
+}
+
+.bienvenida{
+
+border-bottom: solid  rgb(216, 205, 205);
+border-left: solid 100% rgb(216, 205, 205);
+border-right: solid 100% rgb(216, 205, 205);
+width: 100%;
+font-size: 25px;
+color: rgb(216, 205, 205);
+
+font-family: sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+    
+    
+
+
+
+}
+
+.listado3{
+
+    color: rgb(216, 205, 205);
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-right: 2%;
+    }
+
+
+.contenedor {
+
+color:rgb(216, 205, 205);
+font-size: 3rem;
+display:flex;
+flex-direction: column;
+justify-content: flex;
+align-items: center;
+font-family: Impact
+
+}
+
+.subtitulo{
+
+    color:rgb(216, 205, 205);
+    font-size: 2rem;
+    font-family: sans-serif;
+padding: 20px;
+margin: 20px;
+display:flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.img{
+display: block;
+height: auto;
+width: 35%;
+margin: auto;
+border-radius: 10px;
+border:rgb(216, 205, 205) 3px solid;
+
+}
+
+
+.img2{
+
+    display: block;
+    width: 70%;
+    margin: auto;
+    height: auto;
+
+}
+
+footer{
+
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(216, 205, 205);
+    height: 400px;
+    border-top: solid rgb(216, 205, 205);
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.mapre{
+
+    font-family: sans-serif;
+    font-size: 25px;
+    color: rgb(216, 205, 205);
+    padding: 10px;
+    margin: auto;
+}
+
+.tituloredes {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    padding: 5%;
+    border-top: white 1px solid;
+    color: white;
+}
+
+.imagentw {
+   
+    height: 100%;
+    display:flex;
+    align-items: center;
+    margin-left: 45%;
+    font-size: 25px;
+}
+
+    footer{
+ 
+        border-top: solid 1px white;
+        color: white;
+        height: 20%;
+        font-size: 25px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
